@@ -8,6 +8,8 @@
     box-sizing: border-box;
 }
 
+
+/* titulos y texto */
 h1 {
     font-family: "Bebas Neue";
     font-size: 100px;
@@ -25,6 +27,8 @@ h2 {
 p {
     font-family: "Open Sans";
 }
+
+/* header */
 
 header {
     display: flex;
@@ -132,3 +136,54 @@ button{
     padding-right:  5vh;
     padding-left: 10vh;
 }
+
+
+/* seccion4 */
+
+.seccion4{
+    width: 100%;;
+}
+
+.conTextSec4{
+    display: flex;
+    padding: 15vh 14vh;
+}
+
+.conTextSec4 img{
+    box-shadow: 30px 15px 40px rgba(0, 0, 0, 0.25);
+}
+
+.conText4{
+  background-color: #e6e6e6;
+  padding:5vh;
+  padding-left: 8vh;
+  box-shadow: 30px 15px 40px rgba(0, 0, 0, 0.25);
+}
+
+.conText4 h2{
+ color:#f5cb00;
+ font-size: 80px;
+ font-weight: 200;
+}
+
+.conText4 p{
+    padding-right: 21vh;
+    padding-bottom: 5vh;
+    font-weight: 500;
+}
+
+.conText4 button{
+    background-color: black;
+    color: white;
+}
+
+.conText4Img{
+    padding-left: 30vh;
+    box-shadow: none;
+}
+
+.conText4Img img{
+     width: 250px;
+     box-shadow: none;
+}
+
