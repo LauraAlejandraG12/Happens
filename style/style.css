@@ -89,8 +89,53 @@ button{
 }
 
 /* seccion contenedor position */
-.contentPosition{
-    display: none;
+
+.contenedor-principal {
+  position: relative;
+  height: 300px; /* altura que ocupará el “espacio intermedio” */
+}
+
+.contentPosition {
+  position: absolute;  /* Saca el contenedor del flujo normal para poder posicionarlo libremente */
+  top: 100%;  /* Lo coloca justo debajo del contenedor padre (al 100% de su altura) */
+  left: 50%;  /* Lo ubica horizontalmente en el centro del contenedor padre */
+  transform: translate(-50%, -50%);  /* Ajusta la posición para que el centro del bloque quede exactamente centrado */
+  background: #e6e6e6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  height: 60vh;
+  padding: 40px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+ 
+}
+
+.conText2 {
+  width: 40%;
+}
+
+.conText2 h2{
+    color: #f5cb00;
+    font-size: 60px;
+    line-height: 0.9;
+    padding-bottom: 1vh;
+}
+
+.conText2 p{
+    padding-bottom: 3vh;
+}
+
+.conText2 .button{
+    background: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    color:black;
+}
+.ImgsContPosition{
+    display: flex;
+    gap: 15vh;
 }
 
 /* seccion3 */
@@ -435,5 +480,24 @@ footer{
     display: flex;
 }
 
+
+/* media queries */
+
+@media(max-width: 1279px) and (min-width:921px ){
+
+}
+
+
+@media(max-width: 920px) and (min-width: 769px ){
+
+}
+
+@media(max-width: 768px) and (min-width: 481px){
+
+}
+
+@media(max-width: 480px ) and (min-width: 352px){
+
+}
 
 
