@@ -277,3 +277,163 @@ button{
 .conText7 p{
     padding-bottom: 5vh;
 }
+
+/* seccion8 */
+
+.seccion8{
+    width: 100%;
+    display: flex;
+    padding: 20vh 19vh;
+    gap: 15vh;
+}
+
+form{
+    background-color: black;
+    width: 220vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color:white;
+    padding: 9vh;
+}
+
+form label{
+    font-family: "Open Sans";
+}
+
+.contForm1{
+    display: flex;
+    justify-content: center;
+    gap: 15vh;
+}
+
+
+.casilla input,textarea{
+    background: none;
+    height: 32px;
+    width: 100%;
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+}
+
+input:focus{
+    outline: none;
+}
+
+textarea:focus{
+    outline: none;
+}
+
+.casilla textarea{
+    resize: none;
+    height: 130px;
+}
+
+form p{
+    font-size: 12px;
+    padding-top: 3vh;
+}
+
+.conText8{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-right: 5vh;
+}
+
+.conText8 h2{
+    font-size: 60px;
+    line-height:1.1;
+    color:#f5cb00;
+    padding-right: 26vh;
+}
+
+.conText8 p{
+    padding-top: 3vh;
+    padding-bottom: 5vh;
+    padding-right: 20vh;
+ 
+}
+
+
+/* seccion 9 */
+
+.seccion9{
+    width: 100%;
+    padding: 10vh 30vh;
+    background-color: #f5cb00;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conText9{
+    text-align: center;
+    padding-bottom: 5vh;
+}
+.conText9 h3{
+    font-family: "Bebas Neue";
+    font-size: 50px;
+    font-weight: 300;
+    padding-bottom: 3vh;
+}
+
+.conText9 p{
+    font-size: 18px;
+}
+
+.seccion9 img{
+    padding-bottom: 5vh;
+}
+.seccion9 button{
+    background-color: black;
+    color: white;
+}
+
+/*  seccion10 */
+
+footer{
+    width:100%;
+    background-color: black;
+    height: 99vh;
+    padding: 10vh 6vh;
+}
+
+.footerA{
+    gap: 10vh;
+    display: flex;
+    padding-top: 20vh;
+    padding-bottom: 23vh;
+}
+
+.contForm{
+        flex-direction: column;
+        display: flex;
+}
+
+.footerA a{
+    text-decoration: none;
+    font-family: "Open Sans";
+    color:#f5cb00;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.contFooter{
+     display: flex;
+     justify-content: space-between;
+     padding-top: 5vh;
+}
+.contFooter p{
+    color:#f5cb00;
+     font-weight: 700;
+}
+
+.logos{
+    gap: 4vh;
+    display: flex;
+}
+
+
+
